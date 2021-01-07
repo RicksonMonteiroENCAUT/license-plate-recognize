@@ -16,8 +16,8 @@
     
 </p>
     <div>
-         <img src= "https://user-images.githubusercontent.com/62216467/103906599-eaf7c400-50de-11eb-803e-0dea5b9a464d.jpg" width=500> 
-         <img src= "https://user-images.githubusercontent.com/62216467/103907114-9bfe5e80-50df-11eb-9f69-bf6f19c21c5c.png" width=500> 
+         <img src= "https://user-images.githubusercontent.com/62216467/103906599-eaf7c400-50de-11eb-803e-0dea5b9a464d.jpg" width=400> 
+         <img src= "https://user-images.githubusercontent.com/62216467/103907114-9bfe5e80-50df-11eb-9f69-bf6f19c21c5c.png" width=400> 
     </div>
  
  <p>
@@ -49,7 +49,16 @@
   <p> 
     Como a queremos detectar uma placa, precisamos de alguma forma destacar a placa entre os outros objetos da imagem, para isso iremos utilizar o método cv2.Sobel() 
     ele promove uma operação de alisamento gaussiano conjunto mais diferenciação, no nosso caso iremos usar a derivada na direção X afim de ressaltar os traços verticais (Isso mesmo, verticais! haha), pois são maioria na placa e em seus dígitos.
-     No <a href="https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_gradients/py_gradients.html" target="_blank">link</a> é possível entender melhor seu funcionamento.
-     
+     No <a href="https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_gradients/py_gradients.html" target="_blank">link</a> é possível entender melhor seu funcionamento. Abaixo temos a imagem após o procedimento.
+  
  </p>
+      <div>
+       <img src= "https://user-images.githubusercontent.com/62216467/103915374-e2f15180-50e9-11eb-8437-4744bea070ef.png" width=600> 
+    </div>
  
+  <p> 
+     No entanto a imagem acima perdeu sua formatação dos valores, seus valores não estão mais entre [0-255] e seu "type" não é mais uint8, como de padrão nas imagens por esse         fator a imagem acima aparece com tanto ruído. Dessa forma, é necessario realizar uma normalização para resgatar este intevalo de valores e seu type padrão. Após isso temos uma resultado melhor na imagem, como pode ser visto
+ </p>
+    <div>
+       <img src= "https://user-images.githubusercontent.com/62216467/103916395-24363100-50eb-11eb-89aa-10b99a37a626.png" width=600> 
+    </div>
