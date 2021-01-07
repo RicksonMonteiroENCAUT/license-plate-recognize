@@ -80,6 +80,13 @@
     Após os procedimentos iremos enviar a imagem para a função crop que desenvolvi. Ela recebe a imagem após os últimos procedimento(imagem A) e a imagem em escala de              cinza(Imagem B). A imagem "A" é submetida ao método cv2.findContourns(), com ela iremos conseguir todos os contornos da imagem e com o auxílio da cv2.boudingRect()             conseguimos obter os vértices dos retangulos encontrados. A proporção das placas mercosul são de 40x13, assim temos uma proporção de 3.07. Dessa forma, considerei que apenas os retângulos encontrados que respeitassem uma proporção de valores entre [2-5]. Assim, com os vértices obtidos pude realizar um recorte na imagem em escala de cinza e obter a placa. Atualmente esse algoritimo de segmentação obteve uma acurácia de apenas 70%, porém acredito ser possível aumentar esse valor com a utilização de mais técnicas de processamento de imagem.  
     vértices para 
 </p>
-   <div>
+    <div>   
          <img src= "https://user-images.githubusercontent.com/62216467/103930077-f528bb00-50fc-11eb-99eb-3e9ca43c1b56.png" width=700> 
     </div>
+<h1>
+    Reconhecimento
+</h1>
+<p>
+    O Reconhecimento da placa é realizado através da API Google Vision utilizando técnicas de Reconhecimento Óptico de Caracteres (OCR). Neste <a href="https://cloud.google.com/vision/docs/ocr" target="_blank">link</a> tem a explicação de como utilizar.
+</p>
+
