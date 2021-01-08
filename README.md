@@ -8,7 +8,7 @@
 </p>
 <p>Substitua "[PATH]" pelo caminho onde suas credencias estiverem salvas na sua máquina.</p>
   
-<h1>Segmentação</h1>
+<h2>Segmentação</h2>
 
 <p>
     O processo de segmentação foi totalmente realizado com o auxílio da biblioteca de visão computacional OpenCV e foi dividido em 5 etapas.</br>
@@ -83,10 +83,17 @@
     <div>   
          <img src= "https://user-images.githubusercontent.com/62216467/103930077-f528bb00-50fc-11eb-99eb-3e9ca43c1b56.png" width=700> 
     </div>
-<h1>
+<h2>
     Reconhecimento
-</h1>
+</h2>
 <p>
-    O Reconhecimento da placa é realizado através da API Google Vision utilizando técnicas de Reconhecimento Óptico de Caracteres (OCR). Neste <a href="https://cloud.google.com/vision/docs/ocr" target="_blank">link</a> tem a explicação de como utilizar.
+    O Reconhecimento da placa é realizado através da API Google Vision utilizando técnicas de Reconhecimento Óptico de Caracteres (OCR). Neste <a           href="https://cloud.google.com/vision/docs/ocr" target="_blank">link</a> tem a explicação de como utilizar.
+</p>
+
+<h2>Contatos</h2>
+<p>
+    <a href="https://www.instagram.com/rickson_gm/" target="_blank">Instagram</a></br>
+    <a href="https://www.gmail.com" target="_blank">ricksonencaut@gmail.com</a></br>
+    <a href="https://www.linkedin.com/in/rickson-gomes-monteiro-411a2a1a1/" target="_blank">LinkedIN</a></br>
 </p>
 
