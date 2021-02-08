@@ -12,7 +12,7 @@
 
 <p>
     O processo de segmentação foi totalmente realizado com o auxílio da biblioteca de visão computacional OpenCV e foi dividido em 5 etapas.</br>
-    -Inicialmente é feito a leitura da imagem e sua converção para GrayScale, temos o exemplo a abaixo:
+    -Inicialmente é feito a leitura da imagem e sua conversão para GrayScale, temos o exemplo a abaixo:
     
 </p>
     <div>
